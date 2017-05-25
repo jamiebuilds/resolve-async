@@ -18,7 +18,7 @@ export type ResolveOptions = {
 
 function resolveAsync(
   fileName /*: string */,
-  opts /*:? ResolveOptions */,
+  opts /*:? ResolveOptions */
 ) /*: Promise<string> */ {
   return promisify(cb => resolve(fileName, opts, cb));
 }
