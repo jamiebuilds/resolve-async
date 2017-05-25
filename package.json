@@ -1,0 +1,16 @@
+{
+  "name": "resolve-async",
+  "version": "0.0.0",
+  "description": "Typed async resolve function",
+  "main": "index.js",
+  "repository": "thejameskyle/resolve-async",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.46.0"
+  },
+  "dependencies": {
+    "resolve": "^1.3.3",
+    "typeable-promisify": "^1.0.1"
+  }
+}
